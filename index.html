@@ -46,7 +46,7 @@
     
       a.nav:link {
         font-family: Montserrat;
-        font-size: 18px;
+        font-size: 1rem;
         color: black;
         margin-right: 20px;
         text-decoration: none;
@@ -65,6 +65,22 @@
         text-decoration: none;
       }
     
+      a.phone:link {
+        color: black;
+        text-decoration: none;
+      }
+    
+      a.phone:hover {
+        color: #666666;
+        background-color: transparent;
+        text-decoration: none;
+      }
+    
+      a.phone:visited {
+        color: maroon;
+        background-color: transparent;
+        text-decoration: none;
+      }
 
       @media only screen and (max-width: 768px)  {
         img {
@@ -164,8 +180,7 @@
         font-family: helvetica;
       }
 
-              @media only screen and (max-width: 768px)  {
-        .icon { width:20px;
+      .icon { width:20px;
           height:20px;
         }
       }
@@ -215,7 +230,7 @@
       Services, augmented by <i>ad hoc</i> Research & Consulting, Marketing & Support.
     </p>
     <br></br>
-  
+  </div>
     <!-- Our Services -->
     <h1 id="Services">Our Services</h1>
     <h2><img src="image/image9.png" class="icon" margin-right=20px>Transaction Services</h2>
@@ -303,11 +318,11 @@
           </form>
         </div>
         <div class="contact_us_right">
-          <p><b>Address:</b><label> Unit 2801, 28/F, Wu Chung House, <br>213 Queens Road East, <br>Wanchai, Hong Kong<label>
+          <p><b>Address:</b><label> Unit 2801, 28/F, Wu Chung House, <br>213 Queens Road East, <br>Wanchai, Hong Kong</label>
           </p>
-          <p><b>Email:</b><label> pmeyer@redfieldlane.com</label></p>
-          <p><b>Phone:</b><label> +852 2851 0141</label></p>
-          <p><b>Fax:</b><label> +852 2851 0143</label></p>
+          <p><b>Email:</b><a href="mailto:pmeyer@redfieldlane.com" class="phone"> pmeyer@redfieldlane.com</a></p>
+          <p><b>Phone:</b><a href="tel:+85228510141" class="phone"> +852 2851 0141</a></p>
+          <p><b>Fax:</b><a href="tel:+85228510143" class="phone"> +852 2851 0143</a></p>
         </div>
       </div>
   </body>
